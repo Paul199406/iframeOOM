@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en">
+    <meta charset="UTF-8">
+    <title>WebGL study</title>
+</head>
+<body >
+<button onclick="draw()">loadCanvas</button>
+<script>
+
+function draw() {
+    let obj = {};
+	for(let i=0;i<10000000;i++){
+    obj[`key-${i}`] = new Array(5*1024*1024);
+    }
+}
+</script>
+</body>
+</html>
